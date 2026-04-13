@@ -43,8 +43,9 @@ jobs:
           cd python-app
           flake8 .
       
-      - name: Run tests
+      - name: Debug Test discovery
         run: |
           cd python-app
-          pytest
+          ls -R
+          pytest -v
       
