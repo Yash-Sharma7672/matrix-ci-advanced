@@ -35,6 +35,7 @@ jobs:
       # Install Dependencies
       - name: Install Dependencies
         run: |
+          cd python-appx
           pip install -r requirements.txt
 
       - name: Lint code
