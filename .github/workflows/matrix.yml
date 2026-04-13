@@ -2,8 +2,8 @@ name: Advanced Matrix CI pipeline
 
 on:
   push:
-    paths:
-      - "matrix-ci-advanced/python-app"
+    branches:
+      - main
 
 jobs:
   python-test:
