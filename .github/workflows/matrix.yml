@@ -40,9 +40,11 @@ jobs:
 
       - name: Lint code
         run: |
+          cd python-app
           flake8 .
       
       - name: Run tests
         run: |
+          cd python-app
           pytest
       
